@@ -1,18 +1,27 @@
+File Metadata Microservice
+-----
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+By Luca Perico for [FreeCodeCamp](https://www.freecodecamp.com/challenges/file-metadata-microservice)
+<br><br>
 
+##### User story
+1. I can submit a FormData object that includes a file upload.
+2. When I submit something, I will receive the file size in bytes within the JSON response
+<br><br><br>
+##### Example input:
+1. A file
+##### Example output:
+1. {'size': 4}`
 
-Hi there! Welcome to Cloud9 IDE!
+<br>
+##### Project Files
+ * server.js: HTTP server listening for the file
+<br>
+##### Howto
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+`node server.js` : start the NodeJS server
 
-Happy coding!
-The Cloud9 IDE team
+`note test.js` : test the module timeservice
+
+<br>
+###### The server is usually down!
